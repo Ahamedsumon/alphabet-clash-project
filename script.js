@@ -1,7 +1,8 @@
 
 function addBackgroundColorById(elementId){
     const element = document.getElementById(elementId);
-    element.classList.add('bg-orange-400')
+    element.classList.add('bg-orange-400');
+    console.log(element);
 }
 
 
@@ -14,7 +15,7 @@ function getRandomAlphabet(){
         const randomDisplayText = alphabetIntoArray[roundRandomNumber];
         const displayText = document.getElementById('display-text');
         displayText.innerText = randomDisplayText.toUpperCase();
-        addBackgroundColorById(randomDisplayText)
+        addBackgroundColorById(randomDisplayText);
 }
 
 
