@@ -99,6 +99,4 @@ document
             "play-ground-section"
           );
           unHidingPlayGroundSection.classList.remove("hidden");
-
-          lifeRemain(5)
         });
